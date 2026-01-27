@@ -1,0 +1,21 @@
+{
+  "name": "@carmopereira/wp-php-template",
+  "version": "1.0.5",
+  "description": "Traditional WordPress plugin generator with wp-scripts support",
+  "main": "bin/cli.js",
+  "bin": {
+    "wp-php-template": "bin/cli.js"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "cli",
+    "scaffold"
+  ],
+  "author": "carmopereira",
+  "license": "MIT",
+  "files": [
+    "bin/cli.js",
+    "README.md"
+  ]
+}
