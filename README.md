@@ -22,7 +22,7 @@ Before using this tool, ensure you have the following installed:
 You don't need to install this globally. You can run it directly using `npx`:
 
 ```bash
-npx @carmopereira/wp-php-template
+npx @carmopereira/wp-php-template@latest
 ```
 
 No WordPress installation is required to run the scaffold.
