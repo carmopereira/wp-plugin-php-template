@@ -16,6 +16,9 @@
     "cli",
     "scaffold"
   ],
+  "scripts": {
+    "postversion": "git push --follow-tags"
+  },
   "author": "carmopereira",
   "license": "MIT",
   "files": [

@@ -26,3 +26,13 @@ npx @carmopereira/wp-php-template@latest
 ```
 
 No WordPress installation is required to run the scaffold.
+
+## 📦 Releasing a new version
+
+Publishing to npm is automated by [`.github/workflows/release.yml`](.github/workflows/release.yml) and triggers on any `v*` tag push. To cut a release:
+
+```bash
+npm version patch   # or minor / major
+```
+
+This bumps `package.json`, commits, tags, and — via the `postversion` script — pushes the commit and tag automatically, which kicks off the publish workflow. Don't push manually; just run `npm version`.
