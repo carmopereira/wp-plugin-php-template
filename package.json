@@ -1,10 +1,14 @@
 {
   "name": "@carmopereira/wp-php-template",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Traditional WordPress plugin generator with wp-scripts support",
   "main": "bin/cli.js",
   "bin": {
     "wp-php-template": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carmopereira/wp-plugin-php-template"
   },
   "keywords": [
     "wordpress",
