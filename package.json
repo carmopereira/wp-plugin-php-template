@@ -1,6 +1,6 @@
 {
   "name": "@carmopereira/wp-php-template",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Traditional WordPress plugin generator with wp-scripts support",
   "main": "bin/cli.js",
   "bin": {
